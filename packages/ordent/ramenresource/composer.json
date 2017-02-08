@@ -1,0 +1,20 @@
+{
+	"name": "ordent/ramenresource",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Dimas Satrio",
+			"email": "dimassrio@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"classmap": [
+			"database"
+		],
+		"psr-4": {
+			"App\\": "app/",
+			"Ordent\\RamenResource\\" : "packages/ordent/ramenresource/src/"
+		}
+	}
+}
